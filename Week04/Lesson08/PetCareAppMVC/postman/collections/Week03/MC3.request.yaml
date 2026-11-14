@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:3000/payments/mock/2
+method: POST
+body:
+  type: json
+  content: '{"testStatus":"DECLINED"}'
+order: 11000
